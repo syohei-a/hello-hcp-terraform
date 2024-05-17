@@ -12,6 +12,6 @@ module "devinstance" {
   source  = "app.terraform.io/syohei-a/devinstance/aws"
   version = "0.0.2"
 
-  hello_tf_instance_type = "t2.large"
+  hello_tf_instance_type = "t2.micro"
   prefix                 = "syohei-a"
 }
